@@ -9,7 +9,9 @@
             </b-card-text>
           </b-tab>
           <b-tab title="Album Browser">
-            <b-card-text>Tab contents 2</b-card-text>
+            <b-card-text>
+              <album-browser></album-browser>
+            </b-card-text>
           </b-tab>
           <b-tab title="Workout App">
             <b-card-text>Tab contents 1</b-card-text>
@@ -24,11 +26,13 @@
 
 <script>
 import FlightTracker from '@/components/FlightTracker.vue'
+import AlbumBrowser from '@/components/AlbumBrowser.vue'
 
 export default {
   name: 'AboutSection',
   components: {
-    FlightTracker
+    FlightTracker,
+    AlbumBrowser
   }
 
 }

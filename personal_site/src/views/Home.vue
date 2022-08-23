@@ -40,6 +40,8 @@
   </div>
 </template>
 
+
+
 <script>
 // @ is an alias to /src
 import LandingSection from '@/components/LandingSection.vue'
