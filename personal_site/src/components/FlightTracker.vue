@@ -36,8 +36,14 @@
             </div>
           </div>
         </div>
-        <div class='col'>
-          <img class="img-fluid img-thumbnail" src="@/assets/flight_tracker.jpg" alt="Flight tracker landing page">
+        <div class='col-7'>
+            <div class="embed-responsive embed-responsive-4by3">
+              <video class="embed-responsive-item" controls>
+                <source src="@/assets/flight_tracker.webm" type="video/webm">
+                <p>Your browser doesn't support HTML video. Here is
+                  a instead.</p>
+              </video>
+            </div>
         </div>
       </div>
     </div>

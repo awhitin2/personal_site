@@ -10,7 +10,7 @@
                 </a>
               </div>
               <div class='col-2'> 
-                <a href="https://github.com/awhitin2" target="_blank" rel="noopener noreferrer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-box-arrow-up-right" style="font-size: 2rem"></i>
                 </a>
               </div>
@@ -40,7 +40,7 @@
               <source src="@/assets/album_browser.webm" type="video/webm">
               <p>Your browser doesn't support HTML video. Here is
                 a instead.</p>
-          </video>
+            </video>
           </div>
           
         </div>
