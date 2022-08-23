@@ -1,7 +1,7 @@
 <template>
     <div class='container-fluid'>
       <div class='row'>
-        <div class='col-5'>
+        <div class='col-xl-5'>
           <div class='jumbotron'>
             <div class='row mb-2 justify-content-end'>
               <div class='col-2'> 
@@ -28,13 +28,13 @@
                   <b-badge class='bg-warning'>REST API</b-badge>
                   <b-badge class='bg-info'>VUE.js</b-badge>
                   <b-badge class='bg-dark'>BeautifulSoup</b-badge>
-                  <b-badge class='bg-success'>Heroku</b-badge>
+                  <b-badge class='bg-danger'>Heroku</b-badge>
                 </h4>
               </div>
             </div>
           </div>
         </div>
-        <div class='col-7'>
+        <div class='col-xl-7'>
           <div class="embed-responsive embed-responsive-4by3">
             <video class="embed-responsive-item" controls>
               <source src="@/assets/album_browser.webm" type="video/webm">
@@ -50,6 +50,6 @@
 
 <script>
     export default {
-    name: 'FlightTracker',
+    name: 'AlbumBrowser',
     }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div class='container-fluid'>
       <div class='row'>
-        <div class='col-5'>
+        <div class='col-xl-5'>
           <div class='jumbotron'>
             <div class='row mb-2 justify-content-end'>
               <div class='col-2'> 
@@ -36,7 +36,7 @@
             </div>
           </div>
         </div>
-        <div class='col-7'>
+        <div class='col-xl-7'>
             <div class="embed-responsive embed-responsive-4by3">
               <video class="embed-responsive-item" controls>
                 <source src="@/assets/flight_tracker.webm" type="video/webm">
