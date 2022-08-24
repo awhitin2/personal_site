@@ -29,7 +29,7 @@
         </div>
       </div>
     </nav>
-    <div class='container-fluid'>
+    <div class='container-fluid mt-5'>
       <landing-section></landing-section>
       <about-section></about-section>
       <projects-section></projects-section>

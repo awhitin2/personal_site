@@ -12,12 +12,6 @@
   </div>
 </template>
 
-<style>
-hr {
-    border: none;
-    height: 4px;
-}
-</style>
 
 <script>
 export default {

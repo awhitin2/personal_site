@@ -23,7 +23,7 @@
             </p>
             <div class='row'>
               <div class='col'>
-                <h4 class='m-3 text-center'>
+                <h4 class='m-3 text-center text-dark'>
                   <b-badge class='bg-success'>Python</b-badge>
                   <b-badge class='bg-primary'>Flask</b-badge>
                   <b-badge class='bg-warning'>REST API</b-badge>
