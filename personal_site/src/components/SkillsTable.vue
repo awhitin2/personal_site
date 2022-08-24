@@ -39,3 +39,25 @@ export default {
   name: 'SkillsTable'
 }
 </script>
+
+
+
+// Statistical analysis
+// Signif. testing & design, Bayesian inference
+// tidyverse, fitdistrplus (R)
+// Financial forecasting
+// ARIMA, time series, exp. smoothing
+// tidyquant, prophet, zoo (R)
+// Data preparation
+// Cleaning, factorization, regex & text processing, tagging, dimensionality reduction, feature engineering
+// tidyr, dplyr, lubridate, dbplyr, purrr (R); pandas, numpy (Python)
+// Data pipelining & warehousing
+// Orchestration, directed acyclic graphs, data lake, staging, SQL templating, relational diagramming
+// AWS Redshift, Snowflake, PostgreSQL, Apache Spark/Hadoop, Snowpipe
+// Machine learning
+// Regression, classification, clustering, bag/boost, deep learning, neural networks
+// broom, caret, randomForest (R); Jupyter notebooks, scikit-learn, keras (Python)
+// Data visualization
+// Simplicity, grammar of graphics, small multiples
+// ggplot2 (R), plotly, Power BI, Tableau
+

@@ -14,16 +14,7 @@
               <a class="nav-link" href="/#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#experience">Experience</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#contact">Resume</a>
             </li>
           </ul>
         </div>
@@ -33,8 +24,6 @@
       <landing-section></landing-section>
       <about-section></about-section>
       <projects-section></projects-section>
-      <experience-section></experience-section>
-      <contact-section></contact-section>
     </div>
     <my-footer></my-footer>
   </div>

@@ -5,7 +5,7 @@
             <div class='col'>
                 <h2 class='display-4 text-center'>Hi, I'm Andrew Whiting</h2>
                 <hr class="my-4 bg-warning" style="height:3px;border:none">
-                <h5 class='text-center'>A former international finance professional turned full-stack software developer</h5>
+                <h4 class='text-center'>A former international finance professional turned full-stack software developer</h4>
             </div>
         </div>
     </div>
