@@ -1,6 +1,6 @@
 <template>
     <div class='container-fluid'>
-      <div class='row'>
+      <div class='row flex-column-reverse flex-xl-row'>
         <div class='col-xl-5'>
           <div class='jumbotron'>
             <div class='row mb-2 justify-content-end'>

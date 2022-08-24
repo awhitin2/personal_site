@@ -1,31 +1,31 @@
 <template>
-  <div class="container" id='projects'>
+  <div class="container mt-4" id='projects'>
     <h1>Recent Projects</h1>
     <hr class="my-4 bg-warning" style="height:3px;border:none">
-      <b-card no-body>
-        <b-tabs pills card justified>
-          <b-tab title="Flight Tracker" active>
-            <b-card-text>
-              <flight-tracker></flight-tracker>
-            </b-card-text>
-          </b-tab>
-          <b-tab title="Album Browser">
-            <b-card-text>
-              <album-browser></album-browser>
-            </b-card-text>
-          </b-tab>
-          <b-tab title="Workout App">
-            <b-card-text>
-              <workout-app></workout-app>
-            </b-card-text>
-          </b-tab>
-          <b-tab title="Applicant Processor">
-            <b-card-text>
-              <applicant-processor></applicant-processor>
-            </b-card-text>
-          </b-tab>
-        </b-tabs>
-      </b-card>
+    <b-card no-body>
+      <b-tabs pills card justified>
+        <b-tab title="Flight Tracker" active>
+          <b-card-text>
+            <flight-tracker></flight-tracker>
+          </b-card-text>
+        </b-tab>
+        <b-tab title="Album Browser">
+          <b-card-text>
+            <album-browser></album-browser>
+          </b-card-text>
+        </b-tab>
+        <b-tab title="Workout App">
+          <b-card-text>
+            <workout-app></workout-app>
+          </b-card-text>
+        </b-tab>
+        <b-tab title="Applicant Processor">
+          <b-card-text>
+            <applicant-processor></applicant-processor>
+          </b-card-text>
+        </b-tab>
+      </b-tabs>
+    </b-card>
   </div>
 </template>
 

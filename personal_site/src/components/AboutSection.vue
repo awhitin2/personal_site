@@ -1,20 +1,42 @@
 <template>
   <div class="container" id='about'>
-    <div class='row'>
+    <div class='row flex-column-reverse flex-xl-row'>
       <div class='col-md-7'>
         <div class='row'>
           <div class='col-md'>
-            <h1>About me</h1>
+            <h1 class='pt-3'>About me</h1>
             <hr class="my-4 bg-warning" style="height:3px;border:none">
             <p>
-              Enthusiastic software development engineer with 2.5 years of experience in Python for data science/analytics 
-              and 1.5 years of experience in full-stack software engineering. Expert in Python for backend development, 
-              full-stack development, scripting, data wrangling, and data analysis. Competent in both front and 
-              backend application development. Passionate and rapid learner and with an educational and professional background 
-              in structured finance, business strategy, and international development. 
+              I'm an enthusiastic software development engineer with several years of experience in Python for data science/analytics 
+              and more recent experience in full-stack software engineering. I'm a passionate and rapid learner and with an 
+              educational and professional background in structured finance, business strategy, and international development. 
+            </p>
+            <p>
+              While I have loved the big-picture of my previous work experience in international structured finance, nothing has captured my attention moment-by-moment like software development. 
+              Solving puzzles and learning new things, whether it's a new framework or a new spoken language, are when I feel most engaged. 
+              I'm thrilled to have found a career where I can engage in that kind of work day-to-day.
             </p>
           </div>
-        </div>        
+        </div>  
+        <div class='row mt-2'>
+          <div class='col-md'>
+            <b-card no-body>
+              <b-tabs pills card justified>
+                <b-tab title="Tech Skills" active>
+                  <b-card-text>
+                    <tech-skills></tech-skills>
+                  </b-card-text>
+                </b-tab>
+                <b-tab title="Data Skills">
+                  <b-card-text>
+                    <data-skills></data-skills>
+                  </b-card-text>
+                </b-tab>
+              </b-tabs>
+            </b-card>
+            <dev-skills></dev-skills>
+          </div>
+        </div>            
       </div>
       <div class='col-md-5'>
         <img src="@/assets/headshot.jpg" class="img-fluid text-center" alt="headshot">
@@ -31,12 +53,21 @@
 </style>
 
 <script>
-import SkillsTable from '@/components/SkillsTable.vue'
+import TechSkills from '@/components/TechSkills.vue'
+import DataSkills from '@/components/DataSkills.vue'
 
 export default {
   name: 'AboutSection',
   components: {
-    SkillsTable
+    TechSkills,
+    DataSkills
   }
 }
 </script>
+
+
+            // <p>
+            //   Down the road I aim to combine my passion for software development/tech-driven solutions 
+            //   with my background in international finance and international development into a Fintech SAAS 
+            //   platform to aid capital flows in developing countries.
+            // </p>
