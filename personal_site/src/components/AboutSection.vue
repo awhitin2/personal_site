@@ -6,10 +6,13 @@
           <div class='col-md'>
             <h1>About me</h1>
             <hr class="my-4 bg-warning" style="height:3px;border:none">
-            <h4>
-              Experienced fintech professional with strong technical skills and a background in structured finance, business strategy, and international development. 
-              I have a passion for leveraging technology and creative financing solutions to channel development capital into corners of the globe where financing is most challenging.
-            </h4>
+            <p>
+              Enthusiastic software development engineer with 2.5 years of experience in Python for data science/analytics 
+              and 1.5 years of experience in full-stack software engineering. Expert in Python for backend development, 
+              full-stack development, scripting, data wrangling, and data analysis. Competent in both front and 
+              backend application development. Passionate and rapid learner and with an educational and professional background 
+              in structured finance, business strategy, and international development. 
+            </p>
           </div>
         </div>        
       </div>
