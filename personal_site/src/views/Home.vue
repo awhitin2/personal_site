@@ -1,25 +1,22 @@
 <template>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <i class="bi bi-house" style="font-size: 1.5rem"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#projects">Projects</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <div class='container-fluid'>
+    <b-navbar toggleable="lg" type="dark" variant="primary" fixed="top">
+      <b-navbar-brand href="#landing">
+        <i class="bi bi-house" style="font-size: 1.5rem"></i>
+      </b-navbar-brand>
+
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="/#about">About</b-nav-item>
+          <b-nav-item href="/#projects">Projects</b-nav-item>
+          <b-nav-item href="#">Resume</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
     <div class='container-fluid mt-5'>
       <landing-section></landing-section>
       <about-section></about-section>
@@ -28,6 +25,8 @@
     <my-footer></my-footer>
   </div>
 </template>
+
+
 
 
 
