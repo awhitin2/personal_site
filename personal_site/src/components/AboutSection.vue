@@ -18,23 +18,23 @@
             </p>
           </div>
         </div>  
+        <h4>Skills</h4>
         <div class='row mt-2'>
           <div class='col-md'>
             <b-card no-body>
               <b-tabs pills card justified>
-                <b-tab title="Tech Skills" active>
+                <b-tab title="Dev" active>
                   <b-card-text>
                     <tech-skills></tech-skills>
                   </b-card-text>
                 </b-tab>
-                <b-tab title="Data Skills">
+                <b-tab title="Data">
                   <b-card-text>
                     <data-skills></data-skills>
                   </b-card-text>
                 </b-tab>
               </b-tabs>
             </b-card>
-            <dev-skills></dev-skills>
           </div>
         </div>            
       </div>

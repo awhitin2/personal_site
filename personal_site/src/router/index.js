@@ -1,18 +1,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import AboutSection from '@/components/AboutSection'
-import ExperienceSection from '@/components/ExperienceSection'
-import ProjectsSection from '@/components/ProjectsSection'
-import ContactSection from '@/components/ContactSection'
+import ResumePage from '@/components/ResumePage'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Home',
     component: Home
-  }  
+  },
+  {
+    path: '/resume',
+    name: 'ResumePage',
+    component: ResumePage
+  },
 ]
 
 const router = new VueRouter({

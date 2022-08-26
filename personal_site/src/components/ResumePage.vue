@@ -1,10 +1,9 @@
 <template>
-  <p>Hello World</p>
+  <p>Hello</p>
 </template>
-
 
 <script>
 export default {
-  name: 'Resume',
+  name: 'ResumePage',
 }
 </script>
